@@ -83,6 +83,7 @@ public class Topic_05_Exercise {
 
 	@Test
 	public void TC_04_Invalid_Password() {
+		
 		//Action
 		driver.get("https://alada.vn/tai-khoan/dang-ky.html");
 		driver.findElement(By.id("txtFirstname")).sendKeys("John Wick");
