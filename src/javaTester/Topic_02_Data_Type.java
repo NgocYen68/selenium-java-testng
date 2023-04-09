@@ -26,7 +26,7 @@ public class Topic_02_Data_Type {
 		Object people;
 		// Array
 		String [] studentName = {"", "", ""};
-		// List
+		// Collect: List/Set/ Queue
 		List<WebElement> checkboxes = driver.findElements(By.cssSelector(""));
 		// Map
 		Map<String, Integer> student = new HashMap<>();
